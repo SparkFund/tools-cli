@@ -7,7 +7,7 @@ TODO package
 
 ### Usage
 
-[`sparkfund.cli.prompts`](TODO)
+[`sparkfund.cli.prompts`](./src/sparkfund/cli/prompts.clj)
 
 ```clj
 sparkfund.cli.prompts> (choice "please pick a flavor" {"vanilla" 1 "chocolate" 2})
@@ -17,7 +17,7 @@ please pick a flavor ✏️  chocolate
 2
 ```
 
-[`sparkfund.cli.shell`](TODO)
+[`sparkfund.cli.shell`](./src/sparkfund/cli/shell.clj)
 
 ```clj
 sparkfund.cli.shell> (sh! "cowsay" "-f" "flaming-sheep" "example")
@@ -43,7 +43,7 @@ sparkfund.cli.shell> (sh! "echo" "secret" {:print-cmd? false :print-out? false})
 {:out "secret\n", :err "", :exit 0}
 ```
 
-[`sparkfund.cli.style`](TODO)
+[`sparkfund.cli.style`](./src/sparkfund/cli/style.clj)
 
 ```clj
 sparkfund.cli.style> (git-branch-ok "feature/good")
