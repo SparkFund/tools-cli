@@ -3,5 +3,6 @@
         org.clojure/tools.cli {:mvn/version "0.4.2"}}
  :paths ["src"]
  :aliases {:test {:extra-paths ["test"]
-                  :extra-deps {lambdaisland/kaocha {:mvn/version "1.0.632"}}
+                  :extra-deps {lambdaisland/kaocha {:mvn/version "1.0.632"}
+                               lambdaisland/kaocha-junit-xml {:mvn/version "0.0-70"}}
                   :main-opts ["-m" "kaocha.runner"]}}}
