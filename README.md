@@ -3,6 +3,10 @@
 Simple tools for building CLI apps and interacting with the CLI, and
 building a consistent CLI experience across projects.
 
+Although the source code for this library is now open source, it is
+offered as a demonstration, not as a promise of continued development
+or support.
+
 TODO package
 
 ### Usage
