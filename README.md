@@ -1,6 +1,6 @@
 ## tools-cli
 [![Clojars Project](https://img.shields.io/clojars/v/sparkfund/tools-cli.svg)](https://clojars.org/sparkfund/tools-cli)
-[![CircleCI](https://circleci.com/gh/SparkFund/tools-cli.svg?style=svg)](href)
+![CircleCI](https://circleci.com/gh/SparkFund/tools-cli.svg?style=svg)
 
 
 Simple tools for building CLI apps and interacting with the CLI, and
