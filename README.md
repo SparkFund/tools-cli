@@ -1,4 +1,7 @@
 ## tools-cli
+[![Clojars Project](https://img.shields.io/clojars/v/sparkfund/tools-cli.svg)](https://clojars.org/sparkfund/tools-cli)
+[![CircleCI](https://circleci.com/gh/SparkFund/tools-cli.svg?style=svg)](href)
+
 
 Simple tools for building CLI apps and interacting with the CLI, and
 building a consistent CLI experience across projects.
@@ -7,7 +10,8 @@ Although the source code for this library is now open source, it is
 offered as a demonstration, not as a promise of continued development
 or support.
 
-TODO package
+Click the Clojars badge above to see available versions and to get
+Lein/Boot/deps.edn information.
 
 ### Usage
 
