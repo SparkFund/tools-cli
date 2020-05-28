@@ -55,7 +55,7 @@ sparkfund.cli.shell> (sh! "echo" "secret" {:print-cmd? false :print-out? false})
 
 ```clj
 sparkfund.cli.style> (git-branch-ok "feature/good")
-"[1m[35mfeature/good[0m"
+"[1m[35mfeature/good[0m" ;; magenta color
 sparkfund.cli.style> (wrap-with-emoji <tada> "finished")
 "🎉 🎉 🎉  finished 🎉 🎉 🎉 "
 ```
